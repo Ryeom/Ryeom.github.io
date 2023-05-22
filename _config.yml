@@ -95,7 +95,7 @@ analytics:
 author:
    name: 'ryeom'
    avatar:
-      '/assets/images/main.jpeg'
+      '/assets/images/image.png'
       # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
    bio: '잡동사니'
    location: 'Republic of Korea'
