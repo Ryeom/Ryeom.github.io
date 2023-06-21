@@ -11,13 +11,13 @@ subtitle: query 정리
 
 ```js
 
-use gateway_configration //  gateway_configration라는 데이터베이스를 생성
-//switched to db gateway_configration
+use gateway_configuration //  gateway_configuration 데이터베이스를 생성
+//switched to db gateway_configuration
 
 db
-//gateway_configration
+//gateway_configuration
 
-show dbs // database list 확인 -> gateway_configration 안보임
+show dbs // database list 확인 -> gateway_configuration 안보임
 
 db.endpoint.insertOne({
     "seq" : 0, 
@@ -28,7 +28,7 @@ db.endpoint.insertOne({
     "is-encrypted" : true, 
 });
 
-show dbs // database list 확인 -> gateway_configration 보임 (데이터 넣었기 때문)
+show dbs // database list 확인 -> gateway_configuration 보임 (데이터 넣었기 때문)
 
 
 // TTL collection 생성
