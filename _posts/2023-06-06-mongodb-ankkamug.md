@@ -9,7 +9,7 @@ first_writed_at: 2023-06-03T00:00:00-00:00
 subtitle: query 정리
 ---
 
-```mongodb
+```js
 
 use gateway_configration //  gateway_configration라는 데이터베이스를 생성
 //switched to db gateway_configration
